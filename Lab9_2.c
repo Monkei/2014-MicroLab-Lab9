@@ -27,7 +27,7 @@ void speaker(int t, int time)
 		TR0 = 0;
 		SPK = ! SPK; 
 	}
-	delay_ms(500);
+	delay_ms(100);
 }
 
 void main(void){
